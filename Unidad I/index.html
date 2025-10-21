@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cetecvirtual.com.mx/pluginfile.php/1/core_admin/logo/0x200/1759360248/LOGO_CETEC_PNG.png">
+    <title>CETEC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fas fa-laptop-code"></i>
+                <span class="cetec">CETEC</span>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#conceptos-basicos">Conceptos Básicos</a></li>
+                    <li><a href="#hardware">Hardware</a></li>
+                    <li><a href="#software">Software</a></li>
+                    <li><a href="#almacenamiento">Almacenamiento</a></li>
+                    <li><a href="#windows">Windows</a></li>
+                    <li><a href="#teclado">Teclado</a></li>
+                     <li><a href="../Unidad II/index.html">Unidad II</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Tecnología Amigable para Todos</h1>
+            <p>Descubre los conceptos fundamentales de la informática de manera sencilla y accesible</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section id="conceptos-basicos" class="section">
+            <h2>Conceptos Básicos</h2>
+            <div id="computadora">
+                <h3>Computadora: Un Viaje a través de las Generaciones</h3>
+                <p>Es fácil ver una computadora portátil o un smartphone hoy y pensar que siempre fueron así. Pero entender su evolución nos ayuda a apreciar la potencia que tenemos al alcance de la mano y a no temerle a la tecnología, porque vemos que es el resultado de un progreso constante y predecible.</p>
+
+                <div class="highlight">
+                    <p><strong>Definición:</strong> Una computadora es, en esencia, una máquina electrónica que acepta datos (entrada), los procesa según un conjunto de instrucciones (programa) y produce un resultado (salida).</p>
+                </div>
+                
+                <h4>Evolución Histórica de los Sistemas de Computación :</h4>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h5>1ª Generación (1940-1956): Válvulas de Vacío</h5>
+                            <p><strong>Tecnología:</strong> Usaban tubos de vacío, enormes y frágiles, que generaban mucho calor.</p>
+                            <p><strong>Características:</strong> Eran gigantescas (ocupaban cuartos enteros), lentísimas y consumían una energía descomunal.</p>
+                            <p><strong>Ejemplo:</strong> ENIAC</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h5>2ª Generación (1956-1963): Transistores</h5>
+                            <p><strong>Tecnología:</strong> Reemplazo de las válvulas por transistores.</p>
+                            <p><strong>Características:</strong> Más pequeñas, rápidas, eficientes y confiables.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h5>3ª Generación (1964-1971): Circuitos Integrados</h5>
+                            <p><strong>Tecnología:</strong> Múltiples transistores miniaturizados en un solo "chip" de silicio.</p>
+                            <p><strong>Características:</strong> Reducción drástica de tamaño y costo. Aumento masivo de la potencia.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h5>4ª Generación (1971-Presente): Microprocesadores</h5>
+                            <p><strong>Tecnología:</strong> Integración de toda la CPU en un solo chip.</p>
+                            <p><strong>Características:</strong> ¡Es la era en la que estamos! Esto permitió la creación de las computadoras personales (PC), las laptops y los smartphones.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h5>5ª Generación (Presente y Futuro): Inteligencia Artificial y Computación Cuántica</h5>
+                            <p><strong>Tecnología:</strong> Se centra en la paralelización masiva y el procesamiento inteligente.</p>
+                            <p><strong>Características:</strong> Sistemas con capacidad de aprendizaje (redes neuronales) y las primeras computadoras cuánticas.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="image-container">
+                <img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/02/eniac-primer-ordenador-proposito-general-cumple-75-anos-pesaba-27-toneladas-2249277.jpg?tf=640x" alt="ENIAC">
+                <p class="image-caption">ENIAC, el primer ordenador de propósito general.</p>
+            </div>
+                
+                <div class="highlight">
+                    <p><strong>Conclusión:</strong> En resumen, pasamos de cuartos llenos de tubos a tener supercomputadoras en nuestros bolsillos. Pregunta reflexiva: Si en 50 años pasamos de la ENIAC al iPhone, ¿cómo creen que será la computadora dentro de otros 50 años?</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hardware" class="section">
+            <h2>Hardware: El Cuerpo de la Computadora</h2>
+            <p>Para entender cómo funciona una computadora, usemos una analogía: el Hardware es el cuerpo físico, todo lo que puedes tocar. El Software (que veremos luego) será la mente y el alma.</p>
+            
+            <div class="highlight">
+                <p><strong>Definición:</strong> El Hardware es el conjunto de componentes físicos, tangibles, que conforman una computadora. Son las partes mecánicas, eléctricas y electrónicas.</p>
+            </div>
+            
+            <h3>Desglose de Componentes Principales</h3>
+            <div class="hardware-grid">
+                <div class="hardware-item">
+                    <i class="fas fa-microchip"></i>
+                    <h4>CPU / Procesador</h4>
+                    <p>Es el cerebro de la computadora. Ejecuta instrucciones de programas y realiza cálculos.</p>
+                </div>
+                <div class="hardware-item">
+                    <i class="fas fa-memory"></i>
+                    <h4>Memoria RAM</h4>
+                    <p>Memoria de trabajo temporal. Almacena datos e instrucciones de programas en ejecución.</p>
+                </div>
+                <div class="hardware-item">
+                    <i class="fas fa-hdd"></i>
+                    <h4>Disco Duro</h4>
+                    <p>Memoria a largo plazo. Almacena sistema operativo, programas y archivos permanentemente.</p>
+                </div>
+                <div class="hardware-item">
+                    <i class="fas fa-microchip"></i>
+                    <h4>Placa Base</h4>
+                    <p>Conecta y comunica todos los componentes entre sí. Es el sistema nervioso central.</p>
+                </div>
+            </div>
+            
+            <div class="highlight">
+                <p><strong>Conclusión:</strong> El hardware funciona como un equipo: la placa base los conecta, la CPU procesa, la RAM mantiene los datos listos, y el disco duro los guarda para siempre. <strong> Dato curioso</strong>: La potencia de la CPU de un smartphone moderno es miles de veces superior a la computadora que guió el Apolo 11 a la Luna.</p>
+            </div>
+        </section>
+
+        <section id="software" class="section">
+            <h2>Software: La Mente y el Alma</h2>
+            <p>De nada sirve el cuerpo (hardware) más avanzado sin una mente que lo dirija. El Software es ese conjunto de instrucciones intangibles que le dicen al hardware exactamente qué hacer.</p>
+            
+            <div class="highlight">
+                <p><strong>Definición:</strong> El Software es el conjunto de programas, procedimientos, rutinas y datos asociados que permiten a la computadora realizar tareas específicas. Es la parte lógica, no física.</p>
+            </div>
+            
+            <h3>Clasificación del Software</h3>
+            
+            <div class="highlight">
+                <h4>Software de Sistema</h4>
+                <p><strong>Definición:</strong> Es el software fundamental que actúa como intermediario entre el usuario, el hardware y las demás aplicaciones.</p>
+                <p><strong>Ejemplo:</strong> Sistemas Operativos (Windows, macOS, Linux)</p>
+            </div>
+            
+            <div class="highlight">
+                <h4>Software de Aplicación</h4>
+                <p><strong>Definición:</strong> Son los programas que los usuarios ejecutan para realizar tareas específicas y productivas.</p>
+                <p><strong>Ejemplo:</strong> Navegadores web, suites de oficina, editores de foto, videojuegos.</p>
+            </div>
+            
+            <div class="highlight">
+                <h4>Software de Desarrollo</h4>
+                <p><strong>Definición:</strong> Son las herramientas que utilizan los programadores para crear nuevo software.</p>
+                <p><strong>Ejemplo:</strong> Entornos de Desarrollo Integrados (IDE) como Visual Studio Code.</p>
+            </div>
+            
+            <div class="highlight">
+                <p><strong>Conclusión:</strong> Hardware y Software son complementarios e inseparables. El hardware sin software es un cascarón vacío; el software sin hardware no tiene dónde existir. Pregunta reflexiva: ¿Podrían nombrar un ejemplo de Software de Aplicación que usen a diario y qué tarea les permite realizar?</p>
+            </div>
+        </section>
+
+        <section id="almacenamiento" class="section">
+            <h2>Dispositivos de Almacenamiento: Del Cuarto al Bolsillo</h2>
+            <p>Pensemos en la información personal más valiosa que tienen: fotos, documentos, trabajos de la universidad. ¿Dónde la guardan? Esa capacidad de almacenar datos de forma permanente es crucial.</p>
+            
+            <h3>Comparativa: Primera Generación vs. Actual</h3>
+            
+            <div class="highlight">
+                <h4>Primera Generación (Tarjetas Perforadas)</h4>
+                <p><strong>Medio:</strong> Agujeros en una tarjeta de cartón</p>
+                <p><strong>Capacidad:</strong> 80 caracteres por tarjeta</p>
+                <p><strong>Velocidad:</strong> Muy lenta</p>
+                <p><strong>Fiabilidad:</strong> Baja</p>
+            </div>
+            
+            <div class="highlight">
+                <h4>Generación Actual (Unidades SSD)</h4>
+                <p><strong>Medio:</strong> Chips de memoria flash</p>
+                <p><strong>Capacidad:</strong> 256 GB a varios Terabytes</p>
+                <p><strong>Velocidad:</strong> Extremadamente rápida</p>
+                <p><strong>Fiabilidad:</strong> Muy alta</p>
+            </div>
+            
+            <h3>Disco Duro (Hard Drive)</h3>
+            <p>Es el dispositivo de almacenamiento principal interno de la computadora, que utiliza uno o más platos o discos rígidos recubiertos de un material magnético para guardar datos de forma permanente.</p>
+            
+            <h4>Tipos principales:</h4>
+            
+            <div class="highlight">
+                <h5>HDD (Hard Disk Drive)</h5>
+                <p><strong>Tecnología:</strong> Discos magnéticos que giran a altas velocidades y cabezales mecánicos.</p>
+                <p><strong>Ventaja:</strong> Bajo costo por gigabyte.</p>
+                <p><strong>Desventaja:</strong> Más lento, sensible a golpes.</p>
+            </div>
+            
+            <div class="highlight">
+                <h5>SSD (Solid State Drive)</h5>
+                <p><strong>Tecnología:</strong> Usa memoria flash (sin partes móviles).</p>
+                <p><strong>Ventaja:</strong> Velocidad extremadamente superior, silencioso, resistente.</p>
+                <p><strong>Desventaja:</strong> Costo más elevado por gigabyte.</p>
+            </div>
+            
+            <div class="image-container">
+                <img src="https://hardzone.es/app/uploads-hardzone.es/2023/08/sdd-hdd.jpeg" alt="hdd vs ssd">
+                <p class="image-caption">Disco duro HDD vs SSD.</p>
+            </div>
+            
+            <h3>Memoria USB</h3>
+            <p>Dispositivo de almacenamiento portátil que utiliza memoria flash y se conecta mediante un puerto USB. Su gran ventaja es la portabilidad y la facilidad de uso.</p>
+            
+            <h4>Tipos (clasificados por versión de USB):</h4>
+            <ul>
+                <li><strong>USB 2.0:</strong> Velocidad de transferencia lenta (hasta 480 Mbps)</li>
+                <li><strong>USB 3.0 / 3.1 / 3.2:</strong> Velocidad muy superior (desde 5 Gbps hasta 20 Gbps)</li>
+                <li><strong>USB Type-C:</strong> Forma física del conector, reversible y moderno</li>
+            </ul>
+             <div class="image-container">
+                <img src="https://cdn.shopify.com/s/files/1/0257/5246/9566/t/59/assets/usb-version-1698032371731_1200x.png?v=1698032372" alt="usb">
+                <p class="image-caption">Tipos de USB distinguidos por versiones.</p>
+            </div>
+            
+            <h3>Almacenamiento en la Nube</h3>
+            <p>Es un modelo de almacenamiento donde los datos se guardan en servidores remotos a los que se accede a través de Internet. No se almacenan físicamente en tu dispositivo.</p>
+            
+            <h4>Tipos (por uso y acceso):</h4>
+            <ul>
+                <li><strong>Nube Pública:</strong> Servidores de un proveedor compartidos por muchos usuarios (Google Drive, Dropbox)</li>
+                <li><strong>Nube Privada:</strong> Infraestructura de uso exclusivo para una organización</li>
+                <li><strong>Nube Híbrida:</strong> Combina nubes públicas y privadas</li>
+            </ul>
+            <div class="image-container">
+                <img src="https://cdn.prod.website-files.com/65c0cd3f2acb33427e35b1f6/6759619873b1d515577e7ac9_6759618fb8f1079e444f9463_3.webp" alt="Almecenamiento en la nube ">
+                <p class="image-caption">Tipos de almacenamiento en la nube.</p>
+            </div>
+            
+            <h3>Discos Externos</h3>
+            <p>Básicamente son un HDD o SSD interno encerrado en una carcasa protectora con una conexión USB, diseñado para ser portátil y usado como respaldo o extensión del almacenamiento interno.</p>
+            
+            <div class="image-container">
+                <img src="https://st2.depositphotos.com/34357962/42220/i/380/depositphotos_422202382-stock-photo-many-external-hard-drives-wires.jpg" alt="disco externo ">
+                <p class="image-caption">Un disco duro externo es un dispositivo de almacenamiento que se conecta a una computadora mediante puertos como USB, FireWire o Thunderbolt.</p>
+            </div>
+
+            <div class="highlight">
+                <p><strong>Conclusión:</strong> La nube es como alquilar una bodega de almacenamiento infinita a la que puedes acceder desde cualquier lugar del mundo con una conexión a Internet. Dato curioso: ¿Sabían que cuando publican una foto en Instagram o un video en TikTok, están usando almacenamiento en la nube?</p>
+            </div>
+        </section>
+
+        <section id="windows" class="section">
+            <h2>Ambiente Windows: Nuestro Espacio de Trabajo Digital</h2>
+            <p>Ahora que entendemos la máquina, es hora de aprender a movernos en ella. Windows es el Sistema Operativo que, como un buen anfitrión, nos da la bienvenida y nos proporciona un espacio para trabajar y jugar: el Escritorio.</p>
+            
+            
+            <h3>Escritorio</h3>
+            <p>Es la pantalla principal que vemos después de encender la computadora e iniciar sesión en Windows. Actúa como nuestra "mesa de trabajo" digital, donde colocamos los elementos que usamos con más frecuencia.</p>
+            
+            <div class="image-container">
+                <img src="https://www.profesionalreview.com/wp-content/uploads/2021/12/Como-cambiar-de-escritorio-Windows-11-01.png" alt="Escritorio ">
+                <p class="image-caption">Escritorio de Window 11.</p>
+            </div>
+
+            <h3>Barra de Tareas Windows 11</h3>
+            <p>Es la barra larga horizontal que, por defecto, se encuentra en la parte inferior del escritorio. Es el centro de control de Windows.</p>
+            
+            <h4>Componentes y sus funciones (de izquierda a derecha):</h4>
+            <ul>
+                <li><strong>1 Widgets:</strong> Los widgets son elementos interactivos que muestran contenido dinámico y proporcionan acceso rápido a varias aplicaciones y funciones. </li>
+                <li><strong>2 Inicio:</strong>El menú Inicio es un centro central que proporciona acceso rápido a tus aplicaciones, configuración y archivos. </li>
+                <li><strong>3 Buscar:</strong> Windows Search es una potente función que le permite buscar archivos, aplicaciones, opciones de configuración e incluso resultados web directamente desde el escritorio. </li>
+                <li><strong>4 Vista de tareas:</strong> El botón vista de tareas de la barra de tareas está diseñado para mejorar la experiencia multitarea en Windows. </li>
+                <li><strong>5 Aplicaciones:</strong> El área de la barra de tareas usada para las aplicaciones de Windows está diseñada para proporcionar acceso rápido y administración de las aplicaciones.</li>
+                <li><strong>6 Bandeja del sistema:</strong> El área de la bandeja del sistema de la barra de tareas incluye varios botones y elementos que proporcionan acceso rápido a las funciones y notificaciones del sistema.</li>
+            </ul>
+            <div class="image-container">
+                <img src="https://support.microsoft.com/images/es-es/4abfb699-4c8b-45d4-b78c-7401caf8742e?format=avif&w=800" alt="Barra de tareas ">
+                <p class="image-caption">Configurar el diseño de la barra de tareas Windows 11.</p>
+            </div>
+            
+            <h3>Icono</h3>
+            <p>Es una pequeña imagen gráfica que representa un objeto en la pantalla: un archivo, una carpeta, un programa o un acceso directo. Su función es permitirnos identificar y acceder a algo de manera visual e intuitiva.</p>
+            
+            <h3>Programas</h3>
+            <p>También llamados aplicaciones o "apps", son software de aplicación que nos permiten realizar tareas específicas. Un programa es, por ejemplo, el navegador web con el que están viendo esta clase, el Word para escribir o el Paint para dibujar.</p>
+            
+            <div class="highlight">
+                <p><strong>Conclusión:</strong> El Escritorio, con sus iconos y la Barra de Tareas, es nuestro punto de partida. Desde aquí controlamos todo lo que sucede en la computadora a través de los programas. Pregunta reflexiva: En su escritorio, ¿tienen iconos de archivos, de carpetas o de accesos directos? ¿Podrían identificar la diferencia?</p>
+            </div>
+        </section>
+
+        <section id="teclado" class="section">
+            <h2>El Teclado: Nuestro Instrumento de Comando</h2>
+            <p>El teclado es nuestro principal medio para "hablar" con la computadora de forma precisa. Más allá de escribir textos, es una herramienta de control increíblemente poderosa.</p>
+            
+            <h3>Partes del Teclado</h3>
+            <div class="image-container1">
+                <img src="https://i.pinimg.com/1200x/5d/cb/c6/5dcbc6ebba0d2a9b567a22ca33fedfbb.jpg" alt="Teclado ">
+            </div>
+            <p>El teclado es un periférico de entrada que utiliza un conjunto de teclas o botones para actuar como palancas mecánicas o interruptores electrónicos, enviando instrucciones a la computadora.</p>
+            
+            <h4>Desglose de las Partes Principales:</h4>
+            <ul>
+                <li><strong>Teclado Alfanumérico:</strong> La sección central con letras, números y símbolos.</li>
+                <li><strong>Teclado Numérico (Keypad):</strong> Extremo derecho, agrupado como una calculadora.</li>
+                <li><strong>Teclas de Función (F1 - F12):</strong> Fila superior, realizan acciones específicas.</li>
+                <li><strong>Teclas de Control:</strong> Ctrl, Alt, Shift, Tecla de Windows.</li>
+                <li><strong>Teclas de Navegación:</strong> Flechas de dirección, Inicio, Fin, Re Pág, Av Pág.</li>
+                <li><strong>Teclas de Sistema:</strong> Imp Pant, Bloq Despl, Pausa/Inter.</li>
+            </ul>
+            
+            <h3>Atajos de Teclado Esenciales</h3>
+            <div class="shortcuts-grid">
+                <div class="shortcut-item">
+                    <div class="shortcut-keys">
+                        <span class="key">Ctrl</span>
+                        <span class="key">C</span>
+                    </div>
+                    <p>Copiar</p>
+                </div>
+                <div class="shortcut-item">
+                    <div class="shortcut-keys">
+                        <span class="key">Ctrl</span>
+                        <span class="key">V</span>
+                    </div>
+                    <p>Pegar</p>
+                </div>
+                <div class="shortcut-item">
+                    <div class="shortcut-keys">
+                        <span class="key">Ctrl</span>
+                        <span class="key">Z</span>
+                    </div>
+                    <p>Deshacer</p>
+                </div>
+                <div class="shortcut-item">
+                    <div class="shortcut-keys">
+                        <span class="key">Ctrl</span>
+                        <span class="key">A</span>
+                    </div>
+                    <p>Seleccionar todo</p>
+                </div>
+                <div class="shortcut-item">
+                    <div class="shortcut-keys">
+                        <span class="key">Win</span>
+                        <span class="key">D</span>
+                    </div>
+                    <p>Mostrar escritorio</p>
+                </div>
+                <div class="shortcut-item">
+                    <div class="shortcut-keys">
+                        <span class="key">Alt</span>
+                        <span class="key">Tab</span>
+                    </div>
+                    <p>Cambiar entre ventanas</p>
+                </div>
+            </div>
+            
+            <div class="highlight">
+                <p><strong>Conclusión:</strong> El teclado es mucho más que una herramienta para escribir. Es un panel de control directo hacia la computadora. Pregunta reflexiva para practicar: Si quisieran seleccionar todos los archivos de una carpeta y copiarlos a una memoria USB, ¿qué atajos de teclado usarían en el proceso? (La respuesta sería: Ctrl + A para seleccionar todo, luego Ctrl + C para copiar, ir a la USB y usar Ctrl + V para pegar).</p>
+            <p><strong > Tarea: Los códigos Alt</strong></p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Recapitulación Final de la Unidad 1</h2>
+            <p>¡Y con esto, damos por concluida la Unidad 1! Hemos sentado las bases de todo. Repasemos lo clave:</p>
+            
+            <div class="highlight">
+                <ul>
+                    <li><strong>Conceptos Básicos:</strong> Computadora (evolución), Hardware (el cuerpo), Software (la mente).</li>
+                    <li><strong>Almacenamiento:</strong> Disco Duro (HDD/SSD), USB, Nube. La evolución de la capacidad y velocidad.</li>
+                    <li><strong>Ambiente Windows:</strong> Escritorio, Barra de Tareas, Iconos y Programas. Nuestro espacio de trabajo digital.</li>
+                    <li><strong>Teclado:</strong> Partes, atajos esenciales y pronunciación. Nuestra principal herramienta de control.</li>
+                </ul>
+            </div>
+            
+            <p>Están ahora equipados con el conocimiento fundamental para entender qué es una computadora, cómo guarda la información y de qué manera podemos empezar a interactuar con ella de forma inteligente mediante Windows y el teclado.</p>
+            
+            <div class="highlight">
+                <p><strong>Dato curioso final:</strong> La distribución de teclado más común (QWERTY) no se diseñó para ser la más eficiente, sino para evitar que las máquinas de escribir mecánicas se atascaran desde 1868. ¡Y la seguimos usando en la era digital!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Dolores Segura Toledo / Ing en Ciberseguridad</p>
+            <p>©CETEC 2025 - No tengas miedo de cometer errores. Tienes un Ctrl + Z en la vida llamado 'aprendizaje'.</p>
+        </div>
+    </footer>
+
+    <script src="../Unidad II/script.js"></script>
+</body>
+</html>
